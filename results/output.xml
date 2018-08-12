@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180812 12:53:27.255" generator="Robot 3.0.4 (Python 2.7.10 on win32)">
+<suite source="E:\iiTraining\robotfw-web\tests\Salesforce_CreateLead.robot" id="s1" name="Salesforce CreateLead">
+<test id="s1-t1" name="First Test Case">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180812 12:53:27.890" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20180812 12:53:32.966" starttime="20180812 12:53:27.890"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180812 12:53:34.084" starttime="20180812 12:53:32.966"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:34.084" starttime="20180812 12:53:27.889"></status>
+</kw>
+<kw name="Navigate to Salesfore Login Page" library="Salesforce">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20180812 12:53:34.085" level="INFO">Opening url 'https://test.salesforce.com/'</msg>
+<status status="PASS" endtime="20180812 12:53:35.605" starttime="20180812 12:53:34.085"></status>
+</kw>
+<kw name="Login Page Should Be Opened" library="Login">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>${BTN_LOGIN}</arg>
+</arguments>
+<status status="PASS" endtime="20180812 12:53:35.627" starttime="20180812 12:53:35.606"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Login | Salesforce</arg>
+</arguments>
+<msg timestamp="20180812 12:53:35.634" level="INFO">Page title is 'Login | Salesforce'.</msg>
+<status status="PASS" endtime="20180812 12:53:35.634" starttime="20180812 12:53:35.627"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:35.634" starttime="20180812 12:53:35.605"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:35.634" starttime="20180812 12:53:34.085"></status>
+</kw>
+<kw name="Attemp to Login" library="Salesforce">
+<arguments>
+<arg>username=itsara@tmbbank.com.automate</arg>
+<arg>password=P@ssw0rd</arg>
+</arguments>
+<kw name="Enter Credentials" library="Login">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${TXT_USERNAME}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20180812 12:53:35.636" level="INFO">Typing text 'itsara@tmbbank.com.automate' into text field 'id=username'.</msg>
+<status status="PASS" endtime="20180812 12:53:35.765" starttime="20180812 12:53:35.635"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${TXT_PASSWORD}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20180812 12:53:35.766" level="INFO">Typing text 'P@ssw0rd' into text field 'id=password'.</msg>
+<status status="PASS" endtime="20180812 12:53:35.856" starttime="20180812 12:53:35.766"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:35.856" starttime="20180812 12:53:35.635"></status>
+</kw>
+<kw name="Click Submit" library="Login">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${BTN_LOGIN}</arg>
+</arguments>
+<msg timestamp="20180812 12:53:35.857" level="INFO">Clicking element 'id=Login'.</msg>
+<status status="PASS" endtime="20180812 12:53:38.842" starttime="20180812 12:53:35.857"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:38.842" starttime="20180812 12:53:35.856"></status>
+</kw>
+<kw name="Verify That Home Tab is Selected" library="Home">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>//a[@title='Home Tab - Selected']</arg>
+</arguments>
+<status status="PASS" endtime="20180812 12:53:45.617" starttime="20180812 12:53:38.843"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:45.617" starttime="20180812 12:53:38.842"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:45.617" starttime="20180812 12:53:35.635"></status>
+</kw>
+<kw name="Create Leads" library="Salesforce">
+<kw name="Select Tab" library="Home">
+<arguments>
+<arg>menu=Leads</arg>
+</arguments>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//a[contains(.,'${menu}')]</arg>
+</arguments>
+<msg timestamp="20180812 12:53:45.619" level="INFO">Clicking element 'xpath=//a[contains(.,'Leads')]'.</msg>
+<status status="PASS" endtime="20180812 12:53:46.411" starttime="20180812 12:53:45.618"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:46.411" starttime="20180812 12:53:45.618"></status>
+</kw>
+<kw name="Click New Leads" library="Leads">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>name=new</arg>
+</arguments>
+<msg timestamp="20180812 12:53:46.412" level="INFO">Clicking element 'name=new'.</msg>
+<status status="PASS" endtime="20180812 12:53:46.910" starttime="20180812 12:53:46.412"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:46.910" starttime="20180812 12:53:46.411"></status>
+</kw>
+<kw name="Verify That Leads Tab is Selected" library="Leads">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>//a[@title='Leads Tab - Selected']</arg>
+</arguments>
+<status status="PASS" endtime="20180812 12:53:46.925" starttime="20180812 12:53:46.910"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:46.926" starttime="20180812 12:53:46.910"></status>
+</kw>
+<kw name="Click Cancel Button" library="Leads">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>name=cancel</arg>
+</arguments>
+<msg timestamp="20180812 12:53:46.926" level="INFO">Clicking element 'name=cancel'.</msg>
+<status status="PASS" endtime="20180812 12:53:47.324" starttime="20180812 12:53:46.926"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:47.324" starttime="20180812 12:53:46.926"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:47.325" starttime="20180812 12:53:45.618"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20180812 12:53:50.461" starttime="20180812 12:53:47.326"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:50.462" starttime="20180812 12:53:47.326"></status>
+</kw>
+<status status="PASS" endtime="20180812 12:53:50.462" critical="yes" starttime="20180812 12:53:27.889"></status>
+</test>
+<doc>Salesforce web</doc>
+<status status="PASS" endtime="20180812 12:53:50.465" starttime="20180812 12:53:27.259"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Salesforce CreateLead" pass="1">Salesforce CreateLead</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
