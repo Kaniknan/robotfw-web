@@ -9,6 +9,7 @@ Begin Web Test
     Maximize Browser Window
 
 End Web Test
+    sleep  3s
     Close All Browsers
 
 

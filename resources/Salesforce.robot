@@ -16,6 +16,8 @@ Attemp to Login
 
 Create Leads
     Select Tab  menu=Leads
-    Click New Leads
     Verify That Leads Tab is Selected
-    Click Cancel Button
+    Click New Leads
+    Click Continue Button
+    Enter Customer Name  Test01
+    Click Lookpup Primary Campaign
