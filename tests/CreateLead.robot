@@ -17,13 +17,15 @@ First Test Case
     input text  id=password  P@ssw0rd
     click element  id=Login
     wait until page contains element  id=phSearchInput
-    sleep  5s
+    select frame  xpath=//iframe[@title='TaskEventHomeComponent']
+    wait until page contains element  xpath=//input[@value='New Task']
+    unselect frame
     input text  id=phSearchInput  Titiya Uttsoponwatna
     wait until page contains element  id=phSearchButton
     click element  id=phSearchButton
     wait until page contains element  xpath=//a[contains(text(),'Titiya Uttsoponwatna')]  timeout=20s
     click element  xpath=//a[contains(text(),'Titiya Uttsoponwatna')]
-    sleep  3s
+#    sleep  3s
     wait until element is enabled  id=moderatorMutton
     click element  id=moderatorMutton
     wait until element is visible  id=USER_DETAIL
