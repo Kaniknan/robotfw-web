@@ -25,7 +25,6 @@ First Test Case
     click element  id=phSearchButton
     wait until page contains element  xpath=//a[contains(text(),'Titiya Uttsoponwatna')]  timeout=20s
     click element  xpath=//a[contains(text(),'Titiya Uttsoponwatna')]
-#    sleep  3s
     wait until element is enabled  id=moderatorMutton
     click element  id=moderatorMutton
     wait until element is visible  id=USER_DETAIL
@@ -65,18 +64,4 @@ First Test Case
     select frame  id=resultsFrame
     wait until page contains element  xpath=//a[contains(text(),'ACCOUNT TRANSFER')]
     click element  xpath=//a[contains(text(),'ACCOUNT TRANSFER')]
-#    wait until page contains element  xpath=//img[contains(@title,'Primary Campaign Lookup (New Window)')]
-#    click element  xpath=//img[contains(@title,'Primary Campaign Lookup (New Window)')]
-#    select window  NEW
-#    wait until page contains element  id=searchFrame
-#    select frame  id=searchFrame
-#    input text  id=lksrch  TESTNEWWINDOW
-#    select window  MAIN
-#    wait until page contains element  xpath=//input[@id='j_id0:theForm:j_id8:theSection11:j_id40']
-#    input text  xpath=//input[@id='j_id0:theForm:j_id8:theSection11:j_id40']  TESTMAIN
     sleep  5s
-
-*** Keywords ***
-Click Search Button
-    click element  id=phSearchButton
-    page should contain  Search Results
