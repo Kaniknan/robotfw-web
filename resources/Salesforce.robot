@@ -19,5 +19,7 @@ Create Leads
     Verify That Leads Tab is Selected
     Click New Leads
     Click Continue Button
-    Enter Customer Name  Test01
-    Click Lookpup Primary Campaign
+    Select Customer Type  type=Individual
+    Enter Customer Name  customer_name=Test01
+
+

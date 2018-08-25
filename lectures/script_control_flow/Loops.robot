@@ -29,6 +29,7 @@ FOR Loop with List
     :FOR  ${MyItem}  IN  @{ITEMS}
     \  Log  ${MyItem}
 
+
 Exit a FOR Loop
     @{ITEMS} =  Create List  Item 1  Item 2  Item 3  Item 4
 
@@ -42,7 +43,8 @@ Exit a FOR Loop
 Repeat a keyword many times
     Repeat Keyword  5  A Repeatable Keyword
     Repeat Keyword  2 times  A Repeatable Keyword
-    Repeat Keyword  3 s  A Repeatable Keyword
+    Repeat Keyword  1 s  A Repeatable Keyword
+
 
 *** Keywords ***
 Do Something

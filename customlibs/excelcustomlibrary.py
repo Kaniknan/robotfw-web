@@ -261,6 +261,5 @@ class excelcustomlibrary:
             cellCoordinate = columnLetter + str(row)
             if self.sheet[cellCoordinate].value == value:
                 return row
-
         return 0
 

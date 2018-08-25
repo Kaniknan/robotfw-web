@@ -2,7 +2,7 @@
 Documentation  Salesforce web
 Resource        ../resources/Common.robot
 Resource        ../resources/Salesforce.robot
-Test Setup     Common.Begin web Test
+Test Setup    Common.Begin web Test
 Test Teardown  Common.End Web Test
 
 *** Variables ***

@@ -16,8 +16,12 @@ Click Cancel Button
 
 Enter Customer Name
     [Arguments]  ${customer_name}
-    wait until page contains element  xpath=//input[@id='j_id0:theForm:j_id8:theSection11:j_id40']
-    input text  xpath=//input[@id='j_id0:theForm:j_id8:theSection11:j_id40']  ${customer_name}
+    wait until page contains element  xpath=//tr[th[label[text()='Customer Name']]]//input
+    input text  xpath=//tr[th[label[text()='Customer Name']]]//input  ${customer_name}
 
-Click Lookpup Primary Campaign
-    click element  xpath=//img[contains(@title,'Primary Campaign Lookup (New Window)')]
+Select Customer Type
+    [Arguments]  ${type}
+    wait until page contains element  xpath=//tr[th[label[contains(.,'Customer Type')]]]//select
+    select from list by label  xpath=//tr[th[label[contains(.,'Customer Type')]]]//select  ${type}
+
+
