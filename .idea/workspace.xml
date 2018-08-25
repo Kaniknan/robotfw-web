@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01805cdc-1d75-438e-8c00-773924bacd40" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customlibs/excelcustomlibrary.py" beforeDir="false" afterPath="$PROJECT_DIR$/customlibs/excelcustomlibrary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/api/api.robot" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/api/api.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/data_driven/Temp.robot" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/data_driven/Test.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/data_driven/resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/data_driven/resource.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/frame/frame.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/script_control_flow/Loops.robot" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/script_control_flow/Loops.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/setup_teardown/Normal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/setup_teardown/Normal.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/upload_file/upload.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/PO/Home.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/PO/Home.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/PO/Leads.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/PO/Leads.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Salesforce.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Leads.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Leads.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.robot" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lectures/data_driven/Test.robot">
+      <file leaf-file-name="Login.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/PO/Login.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/PO/Home.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -100,14 +93,14 @@
         <option value="$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot" />
         <option value="$PROJECT_DIR$/resources/Salesforce.robot" />
         <option value="$PROJECT_DIR$/lectures/api/api.robot" />
-        <option value="$PROJECT_DIR$/resources/PO/Home.robot" />
         <option value="$PROJECT_DIR$/tests/Leads.robot" />
         <option value="$PROJECT_DIR$/resources/PO/Leads.robot" />
         <option value="$PROJECT_DIR$/customlibs/excelcustomlibrary.py" />
+        <option value="$PROJECT_DIR$/resources/PO/Home.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="515" />
     <option name="y" value="8" />
     <option name="width" value="1378" />
@@ -127,6 +120,17 @@
             <path>
               <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="PO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,6 +254,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -475,20 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/PO/Login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/PO/Home.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Leads.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -540,6 +531,20 @@
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/PO/Login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/PO/Home.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
