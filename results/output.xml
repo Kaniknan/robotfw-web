@@ -1,253 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180820 13:35:46.773" generator="Robot 3.0.2 (Python 2.7.10 on win32)">
-<suite source="D:\Training\ii\robotfw-web\tests\CreateLead.robot" id="s1" name="CreateLead">
-<test id="s1-t1" name="First Test Case">
-<kw name="Open Browser" library="Selenium2Library">
-<doc>Opens a new browser instance to the given ``url``.</doc>
+<robot generated="20180824 13:32:47.772" generator="Robot 3.0.2 (Python 2.7.10 on win32)">
+<suite source="D:\Training\ii\robotfw-web" id="s1" name="Robotfw-Web">
+<suite source="D:\Training\ii\robotfw-web\tests" id="s1-s1" name="Tests">
+<suite source="D:\Training\ii\robotfw-web\tests\temp.robot" id="s1-s1-s1" name="Temp">
+<kw type="setup" name="Run Keywords" library="BuiltIn">
+<doc>Executes all the given keywords in a sequence.</doc>
 <arguments>
-<arg>${URL}</arg>
-<arg>${BROWSER}</arg>
+<arg>Log</arg>
+<arg>---Suite Setup 1---</arg>
+<arg>AND</arg>
+<arg>Log</arg>
+<arg>---Suite Setup 2---</arg>
 </arguments>
-<msg timestamp="20180820 13:35:47.293" level="INFO">Opening browser 'ie' to base url 'https://test.salesforce.com/'.</msg>
-<status status="PASS" endtime="20180820 13:35:53.822" starttime="20180820 13:35:47.291"></status>
-</kw>
-<kw name="Maximize Browser Window" library="Selenium2Library">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20180820 13:35:54.056" starttime="20180820 13:35:53.823"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>id=username</arg>
+<arg>---Suite Setup 1---</arg>
 </arguments>
-<status status="PASS" endtime="20180820 13:35:54.385" starttime="20180820 13:35:54.057"></status>
+<msg timestamp="20180824 13:32:47.866" level="INFO">---Suite Setup 1---</msg>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
 </kw>
-<kw name="Title Should Be" library="Selenium2Library">
-<doc>Verifies that current page title equals ``title``.</doc>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>Login | Salesforce</arg>
+<arg>---Suite Setup 2---</arg>
 </arguments>
-<msg timestamp="20180820 13:35:54.399" level="INFO">Page title is 'Login | Salesforce'.</msg>
-<status status="PASS" endtime="20180820 13:35:54.400" starttime="20180820 13:35:54.386"></status>
+<msg timestamp="20180824 13:32:47.866" level="INFO">---Suite Setup 2---</msg>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
 </kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
+</kw>
+<test id="s1-s1-s1-t1" name="TC001">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>id=username</arg>
-<arg>itsara@tmbbank.com.automate</arg>
+<arg>TC001</arg>
 </arguments>
-<msg timestamp="20180820 13:35:54.401" level="INFO">Typing text 'itsara@tmbbank.com.automate' into text field 'id=username'.</msg>
-<status status="PASS" endtime="20180820 13:35:56.430" starttime="20180820 13:35:54.400"></status>
+<msg timestamp="20180824 13:32:47.866" level="INFO">TC001</msg>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
 </kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=password</arg>
-<arg>P@ssw0rd</arg>
-</arguments>
-<msg timestamp="20180820 13:35:56.431" level="INFO">Typing text 'P@ssw0rd' into text field 'id=password'.</msg>
-<status status="PASS" endtime="20180820 13:35:58.014" starttime="20180820 13:35:56.430"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=Login</arg>
-</arguments>
-<msg timestamp="20180820 13:35:58.015" level="INFO">Clicking element 'id=Login'.</msg>
-<status status="PASS" endtime="20180820 13:36:00.501" starttime="20180820 13:35:58.015"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>id=phSearchInput</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:03.696" starttime="20180820 13:36:00.502"></status>
-</kw>
-<kw name="Select Frame" library="Selenium2Library">
-<doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<arguments>
-<arg>xpath=//iframe[@title='TaskEventHomeComponent']</arg>
-</arguments>
-<msg timestamp="20180820 13:36:03.697" level="INFO">Selecting frame 'xpath=//iframe[@title='TaskEventHomeComponent']'.</msg>
-<status status="PASS" endtime="20180820 13:36:05.027" starttime="20180820 13:36:03.697"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>xpath=//input[@value='New Task']</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:09.408" starttime="20180820 13:36:05.028"></status>
-</kw>
-<kw name="Unselect Frame" library="Selenium2Library">
-<doc>Sets the main frame as the current frame.</doc>
-<status status="PASS" endtime="20180820 13:36:09.423" starttime="20180820 13:36:09.409"></status>
-</kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>id=phSearchInput</arg>
-<arg>Titiya Uttsoponwatna</arg>
-</arguments>
-<msg timestamp="20180820 13:36:09.424" level="INFO">Typing text 'Titiya Uttsoponwatna' into text field 'id=phSearchInput'.</msg>
-<status status="PASS" endtime="20180820 13:36:10.463" starttime="20180820 13:36:09.423"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>id=phSearchButton</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:10.740" starttime="20180820 13:36:10.464"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=phSearchButton</arg>
-</arguments>
-<msg timestamp="20180820 13:36:10.741" level="INFO">Clicking element 'id=phSearchButton'.</msg>
-<status status="PASS" endtime="20180820 13:36:12.977" starttime="20180820 13:36:10.740"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>xpath=//a[contains(text(),'Titiya Uttsoponwatna')]</arg>
-<arg>timeout=20s</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:13.103" starttime="20180820 13:36:12.978"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//a[contains(text(),'Titiya Uttsoponwatna')]</arg>
-</arguments>
-<msg timestamp="20180820 13:36:13.104" level="INFO">Clicking element 'xpath=//a[contains(text(),'Titiya Uttsoponwatna')]'.</msg>
-<status status="PASS" endtime="20180820 13:36:16.703" starttime="20180820 13:36:13.104"></status>
-</kw>
-<kw name="Wait Until Element Is Enabled" library="Selenium2Library">
-<doc>Waits until element ``locator`` is enabled.</doc>
-<arguments>
-<arg>id=moderatorMutton</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:17.249" starttime="20180820 13:36:16.704"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=moderatorMutton</arg>
-</arguments>
-<msg timestamp="20180820 13:36:17.251" level="INFO">Clicking element 'id=moderatorMutton'.</msg>
-<status status="PASS" endtime="20180820 13:36:18.087" starttime="20180820 13:36:17.251"></status>
-</kw>
-<kw name="Wait Until Element Is Visible" library="Selenium2Library">
-<doc>Waits until element ``locator`` is visible.</doc>
-<arguments>
-<arg>id=USER_DETAIL</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:18.348" starttime="20180820 13:36:18.088"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>id=USER_DETAIL</arg>
-</arguments>
-<msg timestamp="20180820 13:36:18.349" level="INFO">Clicking element 'id=USER_DETAIL'.</msg>
-<status status="PASS" endtime="20180820 13:36:20.993" starttime="20180820 13:36:18.349"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>name=login</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:21.181" starttime="20180820 13:36:20.994"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>name=login</arg>
-</arguments>
-<msg timestamp="20180820 13:36:21.182" level="INFO">Clicking element 'name=login'.</msg>
-<status status="PASS" endtime="20180820 13:36:29.582" starttime="20180820 13:36:21.182"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>xpath=//a[contains(.,'Leads')]</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:29.708" starttime="20180820 13:36:29.583"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//a[contains(.,'Leads')]</arg>
-</arguments>
-<msg timestamp="20180820 13:36:29.710" level="INFO">Clicking element 'xpath=//a[contains(.,'Leads')]'.</msg>
-<status status="PASS" endtime="20180820 13:36:31.711" starttime="20180820 13:36:29.709"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>name=new</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:31.868" starttime="20180820 13:36:31.712"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>name=new</arg>
-</arguments>
-<msg timestamp="20180820 13:36:31.870" level="INFO">Clicking element 'name=new'.</msg>
-<status status="PASS" endtime="20180820 13:36:33.537" starttime="20180820 13:36:31.870"></status>
-</kw>
-<kw name="Wait Until Page Contains Element" library="Selenium2Library">
-<doc>Waits until element ``locator`` appears on current page.</doc>
-<arguments>
-<arg>xpath=//input[@title='Continue']</arg>
-</arguments>
-<status status="PASS" endtime="20180820 13:36:33.673" starttime="20180820 13:36:33.537"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath=//input[@title='Continue']</arg>
-</arguments>
-<msg timestamp="20180820 13:36:33.674" level="INFO">Clicking element 'xpath=//input[@title='Continue']'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<status status="FAIL" endtime="20180820 13:36:36.230" starttime="20180820 13:36:36.229"></status>
-</kw>
-<msg timestamp="20180820 13:36:36.230" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
-<status status="FAIL" endtime="20180820 13:36:36.232" starttime="20180820 13:36:33.673"></status>
-</kw>
-<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
-<doc>Closes all open browsers and resets the browser cache.</doc>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20180820 13:36:38.251" level="FAIL">URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</msg>
-<status status="FAIL" endtime="20180820 13:36:38.251" starttime="20180820 13:36:37.236"></status>
-</kw>
-<msg timestamp="20180820 13:36:38.251" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</msg>
-<msg timestamp="20180820 13:36:38.260" level="FAIL">URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</msg>
-<status status="FAIL" endtime="20180820 13:36:38.260" starttime="20180820 13:36:36.232">URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</status>
-</kw>
-<status status="FAIL" endtime="20180820 13:36:38.261" critical="yes" starttime="20180820 13:35:47.290">Execution terminated by signal
-
-Also teardown failed:
-URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</status>
+<status status="PASS" endtime="20180824 13:32:47.866" critical="yes" starttime="20180824 13:32:47.866"></status>
 </test>
-<status status="FAIL" endtime="20180820 13:36:38.264" starttime="20180820 13:35:46.784"></status>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
+</suite>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
+</suite>
+<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.819"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="1" pass="0">Critical Tests</stat>
-<stat fail="1" pass="0">All Tests</stat>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="1" id="s1" name="CreateLead" pass="0">CreateLead</stat>
+<stat fail="0" id="s1" name="Robotfw-Web" pass="1">Robotfw-Web</stat>
+<stat fail="0" id="s1-s1" name="Tests" pass="1">Robotfw-Web.Tests</stat>
+<stat fail="0" id="s1-s1-s1" name="Temp" pass="1">Robotfw-Web.Tests.Temp</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20180820 13:36:36.230" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Execution terminated by signal</msg>
-<msg timestamp="20180820 13:36:38.251" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: URLError: &lt;urlopen error [Errno 10061] No connection could be made because the target machine actively refused it&gt;</msg>
 </errors>
 </robot>

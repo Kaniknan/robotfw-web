@@ -1,6 +1,6 @@
 *** Settings ***
 Library  Selenium2Library
-Library  ../../../libraries/customlib.py
+Library  ../../customlibs/csv.py
 
 *** Variables ***
 ${ENVIRONMENT} =  dev
