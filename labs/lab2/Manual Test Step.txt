@@ -1,0 +1,21 @@
+Test Step (Use Page Object, Group Keyword, Select Windows)
+1. Open Salesforece
+2. Login
+3. Create Lead
+    Select Tab  menu=Leads
+    Verify That Leads Tab is Selected
+    Click New Leads
+    Select Lead Record Type  type=Commercial Lead				==>New
+    Click Continue Button
+    Select Customer Type  type=Individual						
+    Enter Customer Name  customer_name=Test01
+    Enter Contact Last Name  last_name=Last name				==>New
+    Click Save Button											==>New
+    Click Pre Screen Button										==>New
+    Select Pre Screen Result  result=Passed						==>New
+    Click Save Button											==>New
+    Click New Recommended Product Button						==>New
+    Select Opportunity Type  type=Non-Credit					==>New
+    Click Product Lookup Button									==>New
+    Select Product From Search Product Window  product=A&H		==>New
+4. Close Browser
