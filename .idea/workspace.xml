@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01805cdc-1d75-438e-8c00-773924bacd40" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lectures/handle_alert/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/select_window/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab1/lab1.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/create_custom_libraray/lib001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/create_custom_libraray/robot001.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectures/frame/frame.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robot-Web.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Robot-Web.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/PO/Leads.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/PO/Leads.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Salesforce.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Salesforce.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Leads.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Leads.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +26,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customlibs/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_lead_lightning.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,18 +80,15 @@
         <option value="$PROJECT_DIR$/resources/DemoApp.robot" />
         <option value="$PROJECT_DIR$/tests/Demo.robot" />
         <option value="$PROJECT_DIR$/lectures/data_driven/mutiple_testcases.robot" />
-        <option value="$PROJECT_DIR$/resources/PO/Login.robot" />
         <option value="$PROJECT_DIR$/tests/Salesforce.robot" />
         <option value="$PROJECT_DIR$/libraries/customlib.py" />
         <option value="$PROJECT_DIR$/data/invalid_users.csv" />
         <option value="$PROJECT_DIR$/../demoapp/htmldownloadfile.html" />
-        <option value="$PROJECT_DIR$/resources/Common.robot" />
         <option value="$PROJECT_DIR$/demoapp/test.html" />
         <option value="$PROJECT_DIR$/demoapp/test" />
         <option value="$PROJECT_DIR$/demoapp/test.robot" />
         <option value="$PROJECT_DIR$/tests/Salesforce_CreateLead.robot" />
         <option value="$PROJECT_DIR$/tests/killIE.robot" />
-        <option value="$PROJECT_DIR$/lectures/frame/frame.robot" />
         <option value="$PROJECT_DIR$/lectures/upload_file/upload.robot" />
         <option value="$PROJECT_DIR$/tests/CreateLead.robot" />
         <option value="$PROJECT_DIR$/customlibs/csv.py" />
@@ -73,21 +104,28 @@
         <option value="$PROJECT_DIR$/lectures/data_driven/Temp.robot" />
         <option value="$PROJECT_DIR$/tests/Example.robot" />
         <option value="$PROJECT_DIR$/lectures/data_driven/resource.robot" />
-        <option value="$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot" />
-        <option value="$PROJECT_DIR$/resources/Salesforce.robot" />
         <option value="$PROJECT_DIR$/lectures/api/api.robot" />
-        <option value="$PROJECT_DIR$/tests/Leads.robot" />
         <option value="$PROJECT_DIR$/customlibs/excelcustomlibrary.py" />
         <option value="$PROJECT_DIR$/resources/PO/Home.robot" />
+        <option value="$PROJECT_DIR$/resources/PO/Login.robot" />
+        <option value="$PROJECT_DIR$/lectures/frame/frame.robot" />
+        <option value="$PROJECT_DIR$/labs/lab1/lab1.robot" />
+        <option value="$PROJECT_DIR$/resources/Salesforce.robot" />
         <option value="$PROJECT_DIR$/resources/PO/Leads.robot" />
+        <option value="$PROJECT_DIR$/resources/Common.robot" />
+        <option value="$PROJECT_DIR$/tests/test.robot" />
+        <option value="$PROJECT_DIR$/customlibs/lib001.py" />
+        <option value="$PROJECT_DIR$/customlibs/robot001.robot" />
+        <option value="$PROJECT_DIR$/tests/Leads.robot" />
+        <option value="$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="515" />
-    <option name="y" value="8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="x" value="-37" />
+    <option name="y" value="-19" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,11 +143,20 @@
               <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
+              <item name="customlibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robotfw-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robotfw-web" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,41 +191,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Robot Framework.TC001 Crate Lead (1)">
-    <configuration name="Get Weather3Hours BANGKOK METROPOLIS Should Success and return data" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;Get Weather3Hours BANGKOK METROPOLIS Should Success and return data&quot;" />
-      <option name="INTERPRETER_NAME" value="python" />
-      <option name="textField1" value="lectures/api/more_example.robot" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="testCaseName" value="Get Weather3Hours BANGKOK METROPOLIS Should Success and return data" />
-      <module name="" />
-    </configuration>
-    <configuration name="Get Weather3Hours Should Success and return data" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;Get Weather3Hours Should Success and return data&quot;" />
-      <option name="INTERPRETER_NAME" value="python" />
-      <option name="textField1" value="lectures/api/more_example.robot" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="testCaseName" value="Get Weather3Hours Should Success and return data" />
-      <module name="" />
-    </configuration>
+  <component name="RunManager" selected="Robot Framework.Test case 1">
     <configuration name="TC001 Crate Lead (1)" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
       <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;TC001 Crate Lead&quot;" />
       <option name="INTERPRETER_NAME" value="python" />
       <option name="textField1" value="lectures/data_driven/test.robot" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
-      <option name="testCaseName" value="TC001 Crate Lead" />
-      <module name="" />
-    </configuration>
-    <configuration name="TC001 Crate Lead" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;TC001 Crate Lead&quot;" />
-      <option name="INTERPRETER_NAME" value="python" />
-      <option name="textField1" value="lectures/data_driven/get_excel_data.robot" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
       <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
@@ -194,20 +212,50 @@
       <option name="testCaseName" value="TC001 Creaet Lead" />
       <module name="" />
     </configuration>
+    <configuration name="TC01: Create Lead On The Lightning Experience" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;TC01: Create Lead On The Lightning Experience&quot;" />
+      <option name="INTERPRETER_NAME" value="python" />
+      <option name="textField1" value="lectures/lightning_experience/create_lead_lightning.robot" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="testCaseName" value="TC01: Create Lead On The Lightning Experience" />
+      <module name="" />
+    </configuration>
+    <configuration name="Test case 1" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;Test case 1&quot;" />
+      <option name="INTERPRETER_NAME" value="python" />
+      <option name="textField1" value="customlibs/robot001.robot" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="testCaseName" value="Test case 1" />
+      <module name="" />
+    </configuration>
+    <configuration name="Upload File 001" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;Upload File 001&quot;" />
+      <option name="INTERPRETER_NAME" value="python" />
+      <option name="textField1" value="labs/lab1/lab1.robot" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="testCaseName" value="Upload File 001" />
+      <module name="" />
+    </configuration>
     <list>
       <item itemvalue="Robot Framework.TC001 Creaet Lead" />
-      <item itemvalue="Robot Framework.Get Weather3Hours Should Success and return data" />
-      <item itemvalue="Robot Framework.Get Weather3Hours BANGKOK METROPOLIS Should Success and return data" />
-      <item itemvalue="Robot Framework.TC001 Crate Lead" />
       <item itemvalue="Robot Framework.TC001 Crate Lead (1)" />
+      <item itemvalue="Robot Framework.TC01: Create Lead On The Lightning Experience" />
+      <item itemvalue="Robot Framework.Upload File 001" />
+      <item itemvalue="Robot Framework.Test case 1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Robot Framework.TC001 Crate Lead (1)" />
-        <item itemvalue="Robot Framework.TC001 Crate Lead" />
+        <item itemvalue="Robot Framework.Test case 1" />
         <item itemvalue="Robot Framework.TC001 Creaet Lead" />
-        <item itemvalue="Robot Framework.Get Weather3Hours BANGKOK METROPOLIS Should Success and return data" />
-        <item itemvalue="Robot Framework.Get Weather3Hours Should Success and return data" />
+        <item itemvalue="Robot Framework.Upload File 001" />
+        <item itemvalue="Robot Framework.TC01: Create Lead On The Lightning Experience" />
+        <item itemvalue="Robot Framework.TC001 Crate Lead (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,16 +275,16 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17559524" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2590759" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34983498" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39933994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,45 +298,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/PO/Salesforce.robot" />
-    <entry file="file://$PROJECT_DIR$/libraries/customlib.py" />
-    <entry file="file://$PROJECT_DIR$/data/invalid_users.csv" />
-    <entry file="file://$PROJECT_DIR$/../demoapp/htmldownloadfile.html" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demoapp/test.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/SeleniumLibrary/keywords/browsermanagement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/robotide/lib/robot/libraries/BuiltIn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1535" column="8" selection-start-line="1535" selection-start-column="8" selection-end-line="1535" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/SeleniumLibrary/keywords/frames.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -314,20 +323,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lectures/data_driven/mutiple_testcases.robot" />
     <entry file="file://$PROJECT_DIR$/tests/killIE.robot" />
-    <entry file="file://$PROJECT_DIR$/resources/Common.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customlibs/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lectures/if/Test Suite.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -347,37 +342,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lectures/create_custom_libraray/custom_calculator.py" />
     <entry file="file://$PROJECT_DIR$/lectures/create_custom_libraray/customlib.robot" />
-    <entry file="file://$PROJECT_DIR$/lectures/script_control_flow/Loops.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/script_control_flow/ElseIf.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/setup_teardown/Normal.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/setup_teardown/RunKeywords.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lectures/advnace_data_management/urls.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -399,15 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="85" column="57" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Leads-orignal.robot" />
-    <entry file="file://$PROJECT_DIR$/lectures/frame/frame.robot" />
     <entry file="file://C:/Python27/Lib/site-packages/SeleniumLibrary/keywords/window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-621">
@@ -450,16 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customlibs/excelcustomlibrary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log.html" />
     <entry file="file://$PROJECT_DIR$/lectures/data_driven/Test.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -470,36 +417,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/PO/Leads.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/lectures/select_window/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Salesforce.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Leads.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/PO/Login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/lectures/handle_alert/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/PO/Home.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -508,11 +430,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/select_window/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/PO/Login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/handle_alert/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/lectures/frame/frame.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/Manual Test Step.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/lab1.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/robotide/lib/robot/libraries/BuiltIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2218" column="8" selection-start-line="2218" selection-start-column="8" selection-end-line="2218" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/Manual Test Step.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Salesforce.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/PO/Leads.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Common.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/SeleniumLibrary/keywords/browsermanagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/Manual Test Step.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customlibs/excelcustomlibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/create_custom_libraray/robot001.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#35#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Leads.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/setup_teardown/Normal.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/setup_teardown/RunKeywords.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/script_control_flow/ElseIf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/script_control_flow/Loops.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/create_custom_libraray/lib001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/lightning_experience/create_lead_lightning.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customlibs/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

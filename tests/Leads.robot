@@ -10,7 +10,10 @@ ${BROWSER}  ie
 ${URL}  https://test.salesforce.com/
 
 *** Test Cases ***
-TC001 Creaet Lead
+TC001 Creaet Lead Type 001
     Navigate to Salesfore Login Page
     Attemp to Login  username=itsara@tmbbank.com.automate  password=P@ssw0rd
     Create Leads
+
+TC002
+

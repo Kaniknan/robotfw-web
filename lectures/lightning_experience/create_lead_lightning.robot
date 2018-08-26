@@ -1,6 +1,6 @@
 *** Setting ***
 Suite Teardown    Close Browser
-Library           Selenium2Library     timeout=10s
+Library           Selenium2Library     timeout=30s
 
 *** Variables ***
 ${URL}            https://test.salesforce.com

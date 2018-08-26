@@ -1,63 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180824 13:32:47.772" generator="Robot 3.0.2 (Python 2.7.10 on win32)">
-<suite source="D:\Training\ii\robotfw-web" id="s1" name="Robotfw-Web">
-<suite source="D:\Training\ii\robotfw-web\tests" id="s1-s1" name="Tests">
-<suite source="D:\Training\ii\robotfw-web\tests\temp.robot" id="s1-s1-s1" name="Temp">
-<kw type="setup" name="Run Keywords" library="BuiltIn">
-<doc>Executes all the given keywords in a sequence.</doc>
-<arguments>
-<arg>Log</arg>
-<arg>---Suite Setup 1---</arg>
-<arg>AND</arg>
-<arg>Log</arg>
-<arg>---Suite Setup 2---</arg>
-</arguments>
+<robot generated="20180826 16:36:25.987" generator="Robot 3.0.2 (Python 2.7.10 on win32)">
+<suite source="D:\Training\ii\robotfw-web\tests\test.robot" id="s1" name="Test">
+<test id="s1-t1" name="TC001">
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>---Suite Setup 1---</arg>
+<arg>001</arg>
 </arguments>
-<msg timestamp="20180824 13:32:47.866" level="INFO">---Suite Setup 1---</msg>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
+<msg timestamp="20180826 16:36:26.050" level="INFO">001</msg>
+<status status="PASS" endtime="20180826 16:36:26.050" starttime="20180826 16:36:26.050"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>---Suite Setup 2---</arg>
-</arguments>
-<msg timestamp="20180824 13:32:47.866" level="INFO">---Suite Setup 2---</msg>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
-</kw>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
-</kw>
-<test id="s1-s1-s1-t1" name="TC001">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>TC001</arg>
-</arguments>
-<msg timestamp="20180824 13:32:47.866" level="INFO">TC001</msg>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
-</kw>
-<status status="PASS" endtime="20180824 13:32:47.866" critical="yes" starttime="20180824 13:32:47.866"></status>
+<status status="PASS" endtime="20180826 16:36:26.050" critical="yes" starttime="20180826 16:36:26.034"></status>
 </test>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
-</suite>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.866"></status>
-</suite>
-<status status="PASS" endtime="20180824 13:32:47.866" starttime="20180824 13:32:47.819"></status>
+<test id="s1-t2" name="TC002">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>002</arg>
+</arguments>
+<msg timestamp="20180826 16:36:26.050" level="INFO">002</msg>
+<status status="PASS" endtime="20180826 16:36:26.050" starttime="20180826 16:36:26.050"></status>
+</kw>
+<status status="PASS" endtime="20180826 16:36:26.050" critical="yes" starttime="20180826 16:36:26.050"></status>
+</test>
+<test id="s1-t3" name="TC003">
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>1</arg>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180826 16:36:26.050" level="FAIL">1 != 3</msg>
+<status status="FAIL" endtime="20180826 16:36:26.050" starttime="20180826 16:36:26.050"></status>
+</kw>
+<status status="FAIL" endtime="20180826 16:36:26.050" critical="yes" starttime="20180826 16:36:26.050">1 != 3</status>
+</test>
+<status status="FAIL" endtime="20180826 16:36:26.050" starttime="20180826 16:36:26.003"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="1">Critical Tests</stat>
-<stat fail="0" pass="1">All Tests</stat>
+<stat fail="1" pass="2">Critical Tests</stat>
+<stat fail="1" pass="2">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="Robotfw-Web" pass="1">Robotfw-Web</stat>
-<stat fail="0" id="s1-s1" name="Tests" pass="1">Robotfw-Web.Tests</stat>
-<stat fail="0" id="s1-s1-s1" name="Temp" pass="1">Robotfw-Web.Tests.Temp</stat>
+<stat fail="1" id="s1" name="Test" pass="2">Test</stat>
 </suite>
 </statistics>
 <errors>

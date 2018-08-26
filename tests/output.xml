@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180826 16:21:09.044" generator="Robot 3.0.2 (Python 2.7.10 on win32)">
+<suite source="D:\Training\ii\robotfw-web\tests\Leads.robot" id="s1" name="Leads">
+<test id="s1-t1" name="TC001 Creaet Lead Type 001">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Type001</arg>
+</arguments>
+<msg timestamp="20180826 16:21:09.612" level="INFO">Type001</msg>
+<status status="PASS" endtime="20180826 16:21:09.612" starttime="20180826 16:21:09.612"></status>
+</kw>
+<tags>
+<tag>Type001</tag>
+</tags>
+<status status="PASS" endtime="20180826 16:21:09.612" critical="yes" starttime="20180826 16:21:09.612"></status>
+</test>
+<test id="s1-t2" name="TC002 Create Lead Type 002">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Type002</arg>
+</arguments>
+<msg timestamp="20180826 16:21:09.628" level="INFO">Type002</msg>
+<status status="PASS" endtime="20180826 16:21:09.628" starttime="20180826 16:21:09.628"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>1</arg>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180826 16:21:09.628" level="FAIL">1 != 3</msg>
+<status status="FAIL" endtime="20180826 16:21:09.628" starttime="20180826 16:21:09.628"></status>
+</kw>
+<tags>
+<tag>Type002</tag>
+</tags>
+<status status="FAIL" endtime="20180826 16:21:09.628" critical="yes" starttime="20180826 16:21:09.628">1 != 3</status>
+</test>
+<test id="s1-t3" name="TC003 Create Lead Type 003">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Type003</arg>
+</arguments>
+<msg timestamp="20180826 16:21:09.628" level="INFO">Type003</msg>
+<status status="PASS" endtime="20180826 16:21:09.628" starttime="20180826 16:21:09.628"></status>
+</kw>
+<tags>
+<tag>Type001</tag>
+</tags>
+<status status="PASS" endtime="20180826 16:21:09.628" critical="yes" starttime="20180826 16:21:09.628"></status>
+</test>
+<doc>Salesforce web</doc>
+<status status="FAIL" endtime="20180826 16:21:09.628" starttime="20180826 16:21:09.060"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="2">Critical Tests</stat>
+<stat fail="1" pass="2">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">Type001</stat>
+<stat fail="1" pass="0">Type002</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Leads" pass="2">Leads</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
