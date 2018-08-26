@@ -1,6 +1,6 @@
 *** Setting ***
 Suite Teardown    Close Browser
-Library           Selenium2Library
+Library           Selenium2Library     timeout=10s
 
 *** Variables ***
 ${URL}            https://test.salesforce.com
@@ -9,7 +9,7 @@ ${PASSWORD}       P@ssw0rd
 ${CUSTOMER_TYPE}    Juristic
 ${CUSTOMER_NAME}    CustomerName-01
 ${CUSTOMER_LASTNAME}    LastName-01
-${BROWSER}  ie
+${BROWSER}  chrome
 
 *** Test Cases ***
 TC01: Create Lead On The Lightning Experience
@@ -56,7 +56,7 @@ Select Record Type
     Click Button    xpath=//button[span[text()='Next']]
 
 Enter Lead Information (Require Field)
-    Wait Until Keyword Succeeds    5s    1s    Select Frame    xpath=//iframe[contains(@id,'vfFrameId')]
+    Wait Until Keyword Succeeds    10s    1s    Select Frame    xpath=//iframe[contains(@id,'vfFrameId')]
     Wait Until Element Is Enabled    xpath=//div[label[text()='Customer Type']]//select
     Select From List By Label    xpath=//div[label[text()='Customer Type']]//select    ${CUSTOMER_TYPE}
     Input Text    xpath=//div[label[text()='Customer Name']]//input    ${CUSTOMER_NAME}
